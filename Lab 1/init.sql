@@ -1,4 +1,3 @@
-BEGIN
 -- Show the logged in User
 SHOW USER;
 
@@ -16,4 +15,3 @@ GRANT ALL PRIVILEGES TO talha;
 -- sqlplus talha@localhost/XEPDB1
 CONNECT talha;
 SHOW USER;
-END;
